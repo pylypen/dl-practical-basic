@@ -27,6 +27,7 @@ RUN conda install ipython numpy pandas scikit-learn notebook matplotlib seaborn 
 RUN apt-get install -y vim tmux man htop
 
 RUN pip install progressbar2
+RUN pip install MiniSom
 
 RUN conda install -y scikit-image
 
