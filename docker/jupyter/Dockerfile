@@ -24,6 +24,8 @@ RUN pip install --upgrade pip && \
 
 RUN conda install ipython numpy pandas scikit-learn notebook matplotlib seaborn scipy pytables ipywidgets
 
+RUN conda install pytorch torchvision
+
 RUN apt-get install -y vim tmux man htop
 
 RUN pip install progressbar2
